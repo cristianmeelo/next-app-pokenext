@@ -6,12 +6,12 @@ import Navbar from "./Navbar";
 const Layout = ({ children }: any) => {
   return (
     <>
-    <Head>
+      <Head>
         <link rel="shortcut icon" href="/public/images/favicon.ico" />
         <title>PokeNext</title>
-    </Head>
+      </Head>
       <Navbar />
-      <main>{children}</main>
+      <main className="main-container">{children}</main>
       <Footer />
     </>
   );
