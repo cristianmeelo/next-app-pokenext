@@ -1,6 +1,6 @@
-import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
+import Card from "./components/Card";
 
 const pokedexIcon: string = require("../public/images/pokeball.png").default;
 
@@ -47,8 +47,8 @@ export default function Home({ pokemons }: Ipokemons) {
       </div>
 
       <div className={styles.pokemon_container}>
-        {pokemons.map((pokemon: Ipokemon) => (
-          <p key={pokemon.id}>{pokemon.name}</p>
+        {pokemons.map((pokemon: any) => (
+          <Card key={pokemon.id} pokemon={pokemon} />
         ))}
       </div>
     </>
