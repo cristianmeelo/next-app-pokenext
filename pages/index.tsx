@@ -2,6 +2,8 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
+const pokedexIcon: string = require("../public/images/pokeball.png").default;
+
 type Ipokemons = {
   pokemons: {
     map(arg0: (pokemon: Ipokemon) => JSX.Element): import("react").ReactNode;
@@ -11,8 +13,8 @@ type Ipokemons = {
 };
 
 type Ipokemon = {
-    id: string;
-    name: string;
+  id: string;
+  name: string;
 };
 
 export async function getStaticProps() {
@@ -36,12 +38,19 @@ export async function getStaticProps() {
 
 export default function Home({ pokemons }: Ipokemons) {
   return (
-    <div>
-      <ul>
+    <>
+      <div className={styles.title_container}>
+        <h1 className={styles.title}>
+          Poke<span>Next</span>
+        </h1>
+        <Image src={pokedexIcon} width={50} height={50} alt="Pokedex" />
+      </div>
+
+      <div className={styles.pokemon_container}>
         {pokemons.map((pokemon: Ipokemon) => (
-          <li key={pokemon.id}>{pokemon.name}</li>
+          <p key={pokemon.id}>{pokemon.name}</p>
         ))}
-      </ul>
-    </div>
+      </div>
+    </>
   );
 }
