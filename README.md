@@ -4,26 +4,6 @@
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-[Overview](#overview)
-•
-[Screenshot](#Screenshot)
-•
-[Demo](#demo)
-•
-[Install](#Install)
-•
-[Dependencies](#Dependencies)
-•
-[Folder Structure](#Folders)
-•
-[Contributing](#Contributing)
-•
-[Authors](#Authors)
-•
-[Tasks](#Tasks)
-
-<br></br>
-
 
 ## 📜 Overview
 
