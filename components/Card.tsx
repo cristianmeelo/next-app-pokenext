@@ -1,32 +1,18 @@
-import Image from "next/image";
-import Link from "next/link";
+import Image from 'next/image';
+import Link from 'next/link';
 
-import styles from "../styles/Card.module.css";
+import styles from '../styles/Card.module.css';
 
-type Ipokemon = {
-  pokemon: {
-    id: string;
-    name: string;
-  };
-};
-
-const Card = ({ pokemon }: Ipokemon) => {
+export const Card = ({ pokemon }: Ipokemon) => {
   return (
     <div className={styles.card}>
-      <Image
-        src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon.id}.png`}
-        width={120}
-        height={120}
-        alt={pokemon.name}
-      />
+      <Image src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon.id}.png`} width={120} height={120} alt={pokemon.name} />
 
       <p className={styles.id}>#{pokemon.id}</p>
       <h3 className={styles.title}>{pokemon.name}</h3>
       <Link className={styles.btn} href={`/pokemon/${pokemon.id}`}>
-        <p >Detalhes</p>
+        <p>Detalhes</p>
       </Link>
     </div>
   );
 };
-
-export default Card;

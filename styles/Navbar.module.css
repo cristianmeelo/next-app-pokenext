@@ -29,12 +29,12 @@
 
 .link_items p {
   color: #fff;
-  
+
   padding: 5px;
   transition: 0.4s;
   border-bottom: 2px solid transparent;
 }
 
 .link_items p:hover {
-    border-color:#fff;
+  border-color: #fff;
 }
