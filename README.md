@@ -17,7 +17,7 @@
 
 Esta é uma reinterpretação do [pokedex](https://pokemon.fandom.com/pt-br/wiki/Pok%C3%A9dex) desenvolvido com [nextJS](https://nextjs.org/).
 
-<img src="screencapture.png" alt="Image App" >
+<img src="screencapture.gif" alt="Image App" >
 <div align="center">
 <a href="https://pokenext-agraq7zr3-cristianmeelo.vercel.app/">
   <img src="https://img.shields.io/badge/-confira%20aqui-lightgrey" alt="Image App" >
