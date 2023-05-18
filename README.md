@@ -1,40 +1,58 @@
-![PokeNext](thumbnail.png)
+<table align="right">
+  <tr>
+    <td>
+      <a href="README-EN.md">🇺🇸 English (apenas no GitHub)</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="README.md">🇧🇷 Português</a>
+    </td>
+  </tr>
+</table>
+
+![](https://github.com/cristianmeelo/next-app-pokenext/blob/main/thumbnail.png?raw=true#vitrinedev)
 
 # PokeNext
 
-This is a reinterpretation of the [pokedex](https://pokemon.fandom.com/pt-br/wiki/Pok%C3%A9dex) developed with [nextJS](https://nextjs.org/).
+Esta é uma reinterpretação do [pokedex](https://pokemon.fandom.com/pt-br/wiki/Pok%C3%A9dex) desenvolvido com [nextJS](https://nextjs.org/).
 
-<img src="screencapture.gif" alt="Image App" width="50%">
+<img src="screencapture.png" alt="Image App" >
+<div align="center">
+<a href="https://pokenext-agraq7zr3-cristianmeelo.vercel.app/">
+  <img src="https://img.shields.io/badge/-confira%20aqui-lightgrey" alt="Image App" >
+</a>
+</div>
 
-## 🔨 Project features
+## 🔨 Recursos do projeto
 
-On one page, you have access to all pokemons of the second generation, bringing the breakdown of attributes of a pokemon by clicking on "details".
+Desenvolvido com o poderoso framework NextJS, em uma página, você tem acesso a todos os pokémons da segunda geração, trazendo o detalhamento dos atributos de um pokémon clicando em "detalhes". Um Pokedex é um dispositivo eletrônico apresentado no jogo Pokémon e na série de anime que serve como uma enciclopédia digital para todas as espécies conhecidas de Pokémon. Contém informações detalhadas sobre cada Pokémon, como seu nome, número por ordem de registro, tipo, habilidades, estatísticas de batalha, possíveis evoluções, local onde pode ser encontrado e outras características. Nesta interpretação, você pode ver seu número, tipos de pokémon, peso e altura!
 
-A Pokedex is an electronic device featured in the Pokémon game and anime series that serves as a digital encyclopedia for all known Pokémon species.
+## ⚙️ Técnicas e tecnologias usadas
 
-It contains detailed information about each Pokémon, such as its name, number in order of registration, type, abilities, battle stats, possible evolutions, location where it can be found, and other characteristics.
-
-The [Tutorial of this application you can find here](https://www.youtube.com/watch?v=Zc0NrkoEqgI&ab_channel=MatheusBattisti-HoradeCodar).
-
-## ✔️ Techniques and technologies used
-
-Check out this list of everything we will use in this app:
+Confira essa lista de tudo que vamos usar nesse app:
 
 - `NextJS`
 - `TypeScript`
 - `CSS Module`
-- `Components`
 - `Next Routes`
 - `Vercel Deployment`
 - `GitHub`
 
-## 🛠️ Open and run the project
+## 🛠️ Abra e execute o projeto
 
-To open and run the project, run `npm i` to install the dependencies and `npm run dev` to start the project.
+Para abrir e executar o projeto, execute `npm i` para instalar as dependências e `npm run dev` para iniciar o projeto.
 
-Then go to <a href="http://localhost:3000/">http://localhost:3000/</a> in your browser.
+Em seguida, vá para <a href="http://localhost:3000/">http://localhost:3000/</a> em seu navegador.
 
-## 📚 More tutorial information
+## 📚 Mais informações do tutorial
 
-PokeNext is an application for pokemons consultation, developed from the tutorial [Matheus Battisti](https://www.youtube.com/@MatheusBattisti).
-The main idea of ​​this tutorial implementation is to learn and develop the concepts of the nextjs framework, one of the current darlings in the market. The format of working with modular CSS is interesting, as css overlapping problems are stipulated. Individual item access is also different. I conclude that nextJs and SSR can be powerful, but needs to be trained a lot, especially when migrating. It resembles the react query.
+O PokeNext é um aplicativo para consulta de pokémons, desenvolvido a partir do tutorial [Matheus Battisti](https://www.youtube.com/@MatheusBattisti).
+A ideia principal deste tutorial de implementação é aprender e desenvolver os conceitos do framework Nextjs, um dos queridinhos do mercado atual. O formato de trabalhar com CSS modular é interessante, pois são estipulados problemas de sobreposição de CSS. O acesso a itens individuais também é diferente. Concluo que nextJs e SSR podem ser poderosos, mas precisam ser muito treinados, principalmente na hora de migrar. Assemelha-se à consulta de react query.
+
+| :placard: Vitrine.Dev |                                                                                              |
+| --------------------- | -------------------------------------------------------------------------------------------- |
+| :sparkles: Nome       | **PokeNext**                                                                                 |
+| :label: Tecnologias   | NextJS, TypeScript, CSS Module, Next Route,Vercel Deployment,GitHub (tecnologias utilizadas) |
+| :rocket: URL          | https://pokenext-agraq7zr3-cristianmeelo.vercel.app/                                         |
+| :fire: Desafio        | https://www.youtube.com/watch?v=Zc0NrkoEqgI&ab_channel=MatheusBattisti-HoradeCodar           |
