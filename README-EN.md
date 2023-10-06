@@ -11,19 +11,22 @@
   </tr>
 </table>
 
-![](https://github.com/cristianmeelo/next-app-pokenext/blob/main/thumbnail-en.png?raw=true#vitrinedev)
+![](https://github.com/cristianmeelo/next-app-pokenext/blob/main/thumbnail-en.png?raw=true)
+
+![](https://github.com/cristianmeelo/next-app-pokenext/blob/main/thumbnail-mockup.png?raw=true#vitrinedev)
+
+<div align="center">
+<a href="https://pokenext-agraq7zr3-cristianmeelo.vercel.app/">
+  <img src="https://img.shields.io/badge/-CHECK%20HERE-lightblue"
+  alt="Image App" >
+</a>
+</div>
+
+<br/>
 
 # PokeNext
 
 This is a reinterpretation of the [pokedex](https://pokemon.fandom.com/pt-br/wiki/Pok%C3%A9dex) developed with [nextJS](https://nextjs.org/).
-
-<img src="screencapture.gif" alt="Image App" >
-<div align="center">
-<a href="https://pokenext-agraq7zr3-cristianmeelo.vercel.app/">
-  <img src="https://img.shields.io/badge/-check%20here-lightgrey"
-  alt="Image App" >
-</a>
-</div>
 
 ## 🔨 Project features
 

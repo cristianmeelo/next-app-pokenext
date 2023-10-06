@@ -11,16 +11,18 @@
   </tr>
 </table>
 
-![](https://github.com/cristianmeelo/next-app-pokenext/blob/main/thumbnail.png?raw=true#vitrinedev)
+![](https://github.com/cristianmeelo/next-app-pokenext/blob/main/thumbnail.png?raw=true)
+
+![](https://github.com/cristianmeelo/next-app-pokenext/blob/main/thumbnail-mockup.png?raw=true#vitrinedev)
+
+<br/>
 
 # PokeNext
 
 Esta é uma reinterpretação do [pokedex](https://pokemon.fandom.com/pt-br/wiki/Pok%C3%A9dex) desenvolvido com [nextJS](https://nextjs.org/).
 
-<img src="screencapture.gif" alt="Image App" >
 <div align="center">
-<a href="https://pokenext-agraq7zr3-cristianmeelo.vercel.app/">
-  <img src="https://img.shields.io/badge/-confira%20aqui-lightgrey" alt="Image App" >
+  <img src="https://img.shields.io/badge/-CONFIRA%20AQUI-lightblue" alt="Image App" >
 </a>
 </div>
 
